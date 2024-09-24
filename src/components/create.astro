@@ -1,0 +1,20 @@
+---
+import { Image } from 'astro:assets';
+import Create from '../assets/create.png';
+---
+
+<div>
+  <Image
+    class="project-image border  border-black"
+    src={Create}
+    alt="smokezi brand logo"
+    densities={[1, 2, 3]} 
+  />
+</div>
+
+<style>
+  .project-image {
+    width: 100%;
+    height: auto;
+  }
+</style>
